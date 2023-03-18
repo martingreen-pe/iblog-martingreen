@@ -170,34 +170,7 @@ module.exports = {
         display: 'swap'
       }
     },
-    {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        gatsbyRemarkPlugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 1200,
-            },
-          },
-        ],
-        plugins: [],
-        extensions: [`.mdx`, `.md`],
-        defaultLayouts: {
-          posts: require.resolve("./src/templates/blog-post.js"),
-          default: require.resolve("./src/pages/index.js"),
-        },
-        // Agregar esta opción para que utilice el slug
-        slugify: (string) => {
-          const slug = string
-            .toLowerCase()
-            .replace(/[^a-zA-Z0-9]/gi, "-")
-            .replace(/-{2,}/g, "-")
-            .replace(/^-|-$/g, "");
-          return `${new Date().toISOString().slice(0, 10)}-${slug}`;
-        },
-      },
-    },
+    
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
