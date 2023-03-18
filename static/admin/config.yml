@@ -6,7 +6,7 @@ publish_mode: editorial_workflow
 
 local_backend: true
 media_folder: "content/img"
-public_folder: "/img
+public_folder: "./img
 
 collections:
   - name: "content"
