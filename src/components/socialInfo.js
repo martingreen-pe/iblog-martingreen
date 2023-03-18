@@ -3,7 +3,6 @@ import { StaticImage } from "gatsby-plugin-image"
 
 
 export default function SocialInfo() {
-  
   return (
     <>
       <div className='hero'>
