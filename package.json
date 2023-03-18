@@ -1,0 +1,58 @@
+{
+  "name": "martin-green-blog",
+  "private": true,
+  "description": "El blog de Martin Green",
+  "version": "0.1.0",
+  "author": "Martin Green <martingreen.pe@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "gatsby": "^4.22.1",
+    "gatsby-plugin-feed": "^4.22.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-image": "^2.22.0",
+    "gatsby-plugin-manifest": "^4.22.0",
+    "gatsby-plugin-mdx": "^4.3.0",
+    "gatsby-plugin-sass": "^5.22.0",
+    "gatsby-plugin-sharp": "^4.22.0",
+    "gatsby-remark-copy-linked-files": "^5.22.0",
+    "gatsby-remark-images": "^6.22.0",
+    "gatsby-remark-prismjs": "^6.22.0",
+    "gatsby-remark-responsive-iframe": "^5.22.0",
+    "gatsby-remark-smartypants": "^5.22.0",
+    "gatsby-source-filesystem": "^4.22.0",
+    "gatsby-transformer-remark": "^5.22.0",
+    "gatsby-transformer-sharp": "^4.22.0",
+    "prismjs": "^1.29.0",
+    "react": "^18.1.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.1.0",
+    "typeface-merriweather": "0.0.72",
+    "typeface-montserrat": "0.0.75"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "prettier": "^2.7.1",
+    "sass-loader": "^13.2.0"
+  },
+  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  }
+}
