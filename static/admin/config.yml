@@ -11,7 +11,7 @@ public_folder: "./"
 collections:
   - name: "posts"
     label: "Posts"
-    folder: "content"
+    folder: "content/posts"
     create: true
     slug: "{{slug}}"
     fields:
