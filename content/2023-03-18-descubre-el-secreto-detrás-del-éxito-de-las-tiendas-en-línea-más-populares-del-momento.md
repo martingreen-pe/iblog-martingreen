@@ -1,12 +1,12 @@
 ---
 title: Descubre el secreto detrás del éxito de las tiendas en línea más
   populares del momento
-date: 2023-03-18T21:19:32.545Z
 excerpt: ¿Te has preguntado cómo las tiendas en línea más populares llegaron a
   la cima? En este artículo, te revelamos los secretos detrás del éxito de las
   tiendas en línea más exitosas del momento. Aprende de los mejores y lleva tu
   tienda en línea al siguiente nivel.
-featuredImage: ../img/e-commerce-que-es-lluvia-digital.jpg
+featuredImage: tendencias-ecommerce-1200x685.jpg
+date: 2023-03-18T21:19:32.545Z
 tags:
   - ecommerce
   - shopify
