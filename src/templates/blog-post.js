@@ -14,7 +14,6 @@ const BlogPostTemplate = ({
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
   const image = getImage(post.frontmatter.featuredImage)
-  console.log(image)
 
   return (
     <Layout location={location} title={siteTitle}>
