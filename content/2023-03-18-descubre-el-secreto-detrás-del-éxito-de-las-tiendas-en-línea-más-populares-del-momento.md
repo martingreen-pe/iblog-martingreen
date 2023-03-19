@@ -6,7 +6,7 @@ excerpt: ¿Te has preguntado cómo las tiendas en línea más populares llegaron
   la cima? En este artículo, te revelamos los secretos detrás del éxito de las
   tiendas en línea más exitosas del momento. Aprende de los mejores y lleva tu
   tienda en línea al siguiente nivel.
-featuredimage: /images/e-commerce-que-es-lluvia-digital.jpg
+featuredImage: ../img/e-commerce-que-es-lluvia-digital.jpg
 tags:
   - ecommerce
   - shopify

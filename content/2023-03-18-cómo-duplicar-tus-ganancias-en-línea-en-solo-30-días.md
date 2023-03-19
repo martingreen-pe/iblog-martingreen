@@ -5,7 +5,7 @@ excerpt: ¿Quieres saber cómo aumentar tus ganancias en línea? En este artícu
   te mostraremos cómo duplicar tus ingresos en solo 30 días. Descubre las
   técnicas más efectivas para aumentar las ventas en tu tienda en línea y llevar
   tu negocio al siguiente nivel
-featuredimage: /images/john-jay.jpg
+featuredImage: ./flor.jpg
 tags:
   - tienda
   - productos
