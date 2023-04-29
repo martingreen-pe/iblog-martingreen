@@ -34,6 +34,7 @@ export default function cards({posts}) {
                         <Card.Title>
                               <span itemProp="headline">{title}</span> 
                         </Card.Title>
+                        <span>{post.frontmatter.tags}</span>
                         <Card.Text>
                         <p dangerouslySetInnerHTML={{
                               __html: post.excerpt || post.excerpt,

@@ -25,6 +25,7 @@ const BlogPostTemplate = ({
           >
             <header>
               <h1 className="titleBlog" itemProp="headline">{post.frontmatter.title}</h1>
+              <span>{post.frontmatter.tags}</span>
               <p className="descripBlog" dangerouslySetInnerHTML={{
                       __html: post.frontmatter.excerpt || post.excerpt,
                     }}
@@ -103,6 +104,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         excerpt
+        tags
         featuredImage {
           childImageSharp {
             gatsbyImageData(

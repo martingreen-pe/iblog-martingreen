@@ -35,10 +35,9 @@ const BlogIndex = ({ data, location }) => {
           <Hero/>
           <SocialInfo/>
           <Cards posts={posts} />
-          <Servicios/> 
+          <Servicios/>
 
       </div>
-      
           
     </Layout>
   )
@@ -63,6 +62,7 @@ export const pageQuery = graphql`
         }
         frontmatter {
             title
+            tags
             featuredImage {
               childImageSharp {
                 gatsbyImageData(

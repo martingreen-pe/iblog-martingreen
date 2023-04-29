@@ -1,5 +1,6 @@
 import * as React from "react"
 import Header from '../components/header'
+import Navbar from "./Navbar/Navbar"
 import Footer from '../components/Footer/footer'
 
 const Layout = ({ location, title, children }) => {
@@ -9,17 +10,17 @@ const Layout = ({ location, title, children }) => {
 
   if (isRootPath) {
     header = (
-      <Header></Header>
+      <Navbar></Navbar>
     )
   } else {
     header = (
-      <Header></Header>
+      <Navbar></Navbar>
     )
   }
 
   return (
     <div data-is-root-path={isRootPath}>
-      <header className="global-header">{header}</header>
+      <header>{header}</header>
       <main>{children}</main>
       <Footer></Footer>
     </div>
